@@ -1,0 +1,33 @@
+{
+    "name": "naneau/maybe",
+    "description": "Working around PHP's error suppression (@) in a functional style",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Maurice Fonk",
+            "email": "maurice@naneau.net"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Naneau\\Maybe\\": "src/Naneau/Maybe"
+        },
+        "files": [
+            "src/Naneau/Maybe/_Maybe.php"
+        ]
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Naneau\\Maybe\\Test\\": "tests/"
+        }
+    },
+
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "minimum-stability": "stable"
+}
